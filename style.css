@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@698;700&family=Lexend+Deca&family=Overpass:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+body {
+    font-family: 'Overpass';
+    font-size: 1rem;
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-family: inherit;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.HowDidWeDo, .ThankYou {
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem;
+    border-radius: .625rem;
+    max-width: 400px;
+}
+
+.HowDidWeDo img {
+    background-color:  hsl(214, 20%, 25%);
+    padding: .5rem;
+    border-radius: 1.5rem;
+}
+
+.HowDidWeDo h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.HowDidWeDo p {
+    color: hsl(216, 12%, 54%);
+    margin-bottom: 1rem;
+}
+
+.HowDidWeDo ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.HowDidWeDo ul li button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    border: none;
+    color: hsl(216, 12%, 54%);
+    background-color:hsl(214, 20%, 25%) ;
+    padding-top: .2rem;
+    cursor: pointer;
+    transition: .3s ;
+}
+
+.HowDidWeDo ul li button:hover {
+    color: white;
+    background-color:hsl(25, 97%, 53%) ;
+}
+
+.HowDidWeDo ul li button:focus {
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+.btn-submit {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s;
+    width: 100%;
+    letter-spacing: .1rem;
+}
+
+.btn-submit:hover {
+    color:hsl(25, 97%, 53%) ;
+    background-color: white;
+}
+
+.ThankYou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ThankYou img {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.ThankYou p.gray {
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(214, 20%, 25%) ;
+    padding: 0.2rem .5em 0;
+    font-size: .9rem;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.ThankYou h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.ThankYou p {
+    color:hsl(216, 12%, 54%) ;
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(25, 97%, 53%);
+    text-decoration: none;
+}
+
+
